@@ -1,8 +1,8 @@
 class Lines < Formula
   desc "TUI for running frequently used commands from markdown files"
   homepage "https://github.com/janvete/lines"
-  url "https://github.com/janvete/lines/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "6432451f997fcd9413bc1e6d10eb545aa2752b51cc57fb2890f10ac6b6886939"
+  url "https://github.com/janvete/lines/archive/refs/tags/v0.1.9.tar.gz"
+  sha256 "731b415436a186f95af4a587c2e9cd8dd3ff093bcbc53e2638c84d4094a71e05"
   license "MIT"
   head "https://github.com/janvete/lines.git", branch: "main"
 
