@@ -1,8 +1,8 @@
 class Lines < Formula
   desc "TUI for running frequently used commands from markdown files"
   homepage "https://github.com/janvete/lines"
-  url "https://github.com/janvete/lines/archive/refs/tags/v0.1.14.tar.gz"
-  sha256 "05e66ba4f64ffe9186aa7d407398c1c12201bc2e04a4b270f8a0845aeec1f06d"
+  url "https://github.com/janvete/lines/archive/refs/tags/v0.1.15.tar.gz"
+  sha256 "8e260d43baeafc3909b3748beac4093bb50d44cd7c629d9806c2e6daaee1d650"
   license "MIT"
   head "https://github.com/janvete/lines.git", branch: "main"
 
@@ -13,6 +13,6 @@ class Lines < Formula
   end
 
   test do
-    assert_match "TUI pro rychlé spouštění", shell_output("#{bin}/lines --help")
+    assert_match "TUI for running frequently used commands", shell_output("#{bin}/lines --help")
   end
 end
